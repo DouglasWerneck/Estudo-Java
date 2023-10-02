@@ -18,3 +18,9 @@ const objectArray = [
 
 console.log(objectArray.sort((a, b) => a.nome.localeCompare(b.nome))); //ordenar o objeto em ordem alfabetica
 console.log(objectArray.sort((a, b) => a.nome.localeCompare(b.nome)).reverse()); //ordenar em do final para o inicio
+
+/*
+    Se retornar um valor negativo, o valor de "a" sera ordenado  antes do "b"
+    Se retornar 0, a ordenação de "a" e "b" não mudará
+    Se retornar um valor positivo,  o valor de "b" sera ordenado  antes do "a"
+*/
